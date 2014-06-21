@@ -19,7 +19,6 @@
 ## For example, if X is a square invertible matrix, then solve(X) returns its inverse
 
 
-
 ## This function creates a special "matrix" object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -35,7 +34,6 @@ makeCacheMatrix <- function(x = matrix()) {
        setmatrix = setmatrix,
        getmatrix = getmatrix)
 }
-
 
 
 ## This function computes the inverse of the special "matrix" returned by makeCacheMatrix above
